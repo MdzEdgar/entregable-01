@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html, body {
+	height: 100%;
+	margin: 0;
+}
+
+#root{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.App{
+}
+.quote-box{
+    width: 320px;
+    height: auto;
+
+}
+.quote-box p {
+    font-style: italic;
+    text-align: justify;
+}
